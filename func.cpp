@@ -165,6 +165,7 @@ QString  func::strToNwidth(int needWidth,QString addDirection,QString oldStr)
      int size = oldStr.size();
      if(size >= needWidth || needWidth<=0)
      {
+         //not need process
          return oldStr;
      }
 
